@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Clickr"
-  s.version      = "0.1.0"
-  s.summary      = "A clicker to manage occasional tasks, written in Swift."
+  s.version      = "0.2.0"
+  s.summary      = "An occasional tasks management tool."
   s.platform     = :ios
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
   s.requires_arc = true
   s.framework    = "Foundation"
   s.swift_version = "5.0"

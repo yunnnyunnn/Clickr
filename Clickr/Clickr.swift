@@ -24,7 +24,7 @@ public typealias ClickrResetTask = () -> Void
 public class Clickr {
     
     // MARK: - Properties
-    public static let sharedClickr = Clickr()
+    public static let shared = Clickr()
     
     private var resetTasks = [String: ClickrResetTask]()
     
